@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+    @import "/style2.css" fieldset;
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="page-reg">
+                <h1>СОЗДАТЬ НОВУЮ УЧЕТНУЮ ЗАПИСЬ КЛИЕНТА</h1>
+            </div>
+<form class="form-reg">
+  <fieldset>
+        <p>ПЕРСОНАЛЬНЫЕ ДАННЫЕ</p>
+        <hr><br>
+      <label for="firstname">Имя <em>*</em>   </label>
+        <input id="firstname" placeholder="Иван"><br>
+      <label for="lastname">Фамилия <em>*</em>    </label>
+        <input id="lastname" placeholder="Иванов"><br>
+        <label for="gender">Гендер</label>
+        <select id="gender">
+            <option value="">Выберите гендер</option>
+            <option value="agender">Бесполый</option>
+            <option value="androgyne">Гермафродит</option>
+            <option value="intersex">Межполовой</option>
+            <option value="pangender">Всеобщеполовой</option>
+            <option value="non-binary">Небинарные</option>
+            <option value="other">Другое</option>
+      </select><br>
+        <label for="telephone">Телефон</label>
+        <input id="telephone" placeholder="+38 (xxx) xxx-xxxx"><br>
+        <label for="input_file">Аватарка</label>
+        <input id="input_file" type="file"><br>
+        <label for="comments">О себе</label>
+        <textarea id="comments"></textarea><br>
+        <label for="news"><input id="news" type="checkbox">Подписаться на новости</label><br>
+        <label for="pk"><input id="pk" type="radio">Я прочитал Политику Безопасности и согласен с условиями <em>*</em></label>
+  </fieldset>
+    <fieldset>
+        <p>SIGN-IN INFORMATION</p>
+        <hr><br>
+            <label for="email">Электронная почта <em>*</em></label>
+            <input id="email"><br>
+            <label for="password">Пароль <em>*</em></label>
+            <input id="password" type="password">
+    </fieldset>
+    <p><input type="reset" value="Очистить"></p>
+  <p><input type="submit" value="Создать учетную запись"></p>
+</form>
+            
+            
+            
+        </div>
+</main>
+</body>
+</html>
